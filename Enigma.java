@@ -21,9 +21,23 @@ public class Enigma{
 
     public String decrypt(String message){        
         //TODO: same steps as encrypting, just in reverse
-        
+        String decrypted = "";
+        for (int i = 0; i < message.length(); i++) {
+            //find index of outer rotor character
+            int outerIndex = rotors[2].indexOf(message.charAt(i));
 
+            //find char in middle rotor at outer index
+            char middle = rotors[1].charAt(outerIndex);
 
+            //find aligned char index of middle rotor in outer
+            int outerMid = rotors[2].indexOf(middle);
+            
+            char output = rotors[0].charAt(outerMid);
+
+            decrypted += output;
+            rotate();
+        }
+        return decrypted;
     }
 
 
