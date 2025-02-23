@@ -13,7 +13,9 @@ public class Rotor {
     }
     
     public boolean rotate(){
-        //TODO: should rotate one click counterwise & change String || should return true when the rotor'a current character matches its starting character, false otherwise
+        //TODO: should rotate one click counterwise & change String || should return true when the rotor's current character matches its starting character, false otherwise
+
+
 
                
     }
@@ -21,14 +23,12 @@ public class Rotor {
 
     public int indexOf(char c){
         //TODO: returns index in String at which a guven character appears
-
-
+        return rotorValues.indexOf(c);
     }
 
     public char charAt(int idx){
         //TODO: return character at a given index
-
-        
+        return rotorValues.charAt(idx);
     }
 }
     
