@@ -14,7 +14,7 @@ public class Rotor {
     
     public boolean rotate(){
         //TODO: should rotate one click clockwise & change String
-        String clock = (rotorvalues.substring(0, (rotorValues.length() -1)));
+        String clock = (rotorValues.substring(0, (rotorValues.length() -1)));
 
         char endChar = (rotorValues.charAt(rotorValues.length() - 1));
 
