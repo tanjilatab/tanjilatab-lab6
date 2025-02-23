@@ -13,17 +13,22 @@ public class Rotor {
     }
     
     public boolean rotate(){
-        //TODO
+        //TODO: should rotate one click counterwise & change String || should return true when the rotor'a current character matches its starting character, false otherwise
+
                
     }
     
 
     public int indexOf(char c){
-        //TODO
+        //TODO: returns index in String at which a guven character appears
+
+
     }
 
     public char charAt(int idx){
-        //TODO
+        //TODO: return character at a given index
+
+        
     }
 }
     

@@ -20,13 +20,15 @@ public class Enigma{
 
 
     public String decrypt(String message){        
-        //TODO
+        //TODO: same steps as encrypting, just in reverse
     }
 
 
     
     public String encrypt(String message){
-        //TODO
+        //TODO: find character on inner rotor, note aligned character with it on outer rotor, find that character in middle rotor, output the one aligned with it on the outer rotor 
+
+
     }
 
     
