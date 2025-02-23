@@ -13,9 +13,18 @@ public class Rotor {
     }
     
     public boolean rotate(){
-        //TODO: should rotate one click counterwise & change String || should return true when the rotor's current character matches its starting character, false otherwise
+        //TODO: should rotate one click clockwise & change String
+        String clock = (rotorvalues.substring(0, (rotorValues.length() -1)));
 
+        char endChar = (rotorValues.charAt(rotorValues.length() - 1));
 
+        rotorValues = endChar + clock;
+
+        //checks if rotor's current char matches starting char
+        if (rotorValues.charAt(0) == startChar) {
+            return true;
+        }
+        return false;
 
                
     }

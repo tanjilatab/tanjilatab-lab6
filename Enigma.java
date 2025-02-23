@@ -27,6 +27,7 @@ public class Enigma{
     
     public String encrypt(String message){
         //TODO: find character on inner rotor, note aligned character with it on outer rotor, find that character in middle rotor, output the one aligned with it on the outer rotor 
+        
 
 
     }
